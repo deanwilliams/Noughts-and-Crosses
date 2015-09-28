@@ -12,6 +12,9 @@
 		0560807A1BA5A0B200D8F4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056080781BA5A0B200D8F4FA /* Main.storyboard */; };
 		0560807C1BA5A0B200D8F4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0560807B1BA5A0B200D8F4FA /* Assets.xcassets */; };
 		0560807F1BA5A0B200D8F4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0560807D1BA5A0B200D8F4FA /* LaunchScreen.storyboard */; };
+		0560808F1BA5A7CB00D8F4FA /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 0560808C1BA5A7CB00D8F4FA /* board.png */; settings = {ASSET_TAGS = (); }; };
+		056080901BA5A7CB00D8F4FA /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 0560808D1BA5A7CB00D8F4FA /* cross.png */; settings = {ASSET_TAGS = (); }; };
+		056080911BA5A7CB00D8F4FA /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 0560808E1BA5A7CB00D8F4FA /* nought.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0560807B1BA5A0B200D8F4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0560807E1BA5A0B200D8F4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056080801BA5A0B200D8F4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0560808C1BA5A7CB00D8F4FA /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		0560808D1BA5A7CB00D8F4FA /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		0560808E1BA5A7CB00D8F4FA /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				056080741BA5A0B200D8F4FA /* AppDelegate.swift */,
 				056080761BA5A0B200D8F4FA /* ViewController.swift */,
 				056080781BA5A0B200D8F4FA /* Main.storyboard */,
+				0560808C1BA5A7CB00D8F4FA /* board.png */,
+				0560808D1BA5A7CB00D8F4FA /* cross.png */,
+				0560808E1BA5A7CB00D8F4FA /* nought.png */,
 				0560807B1BA5A0B200D8F4FA /* Assets.xcassets */,
 				0560807D1BA5A0B200D8F4FA /* LaunchScreen.storyboard */,
 				056080801BA5A0B200D8F4FA /* Info.plist */,
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056080901BA5A7CB00D8F4FA /* cross.png in Resources */,
+				0560808F1BA5A7CB00D8F4FA /* board.png in Resources */,
+				056080911BA5A7CB00D8F4FA /* nought.png in Resources */,
 				0560807F1BA5A0B200D8F4FA /* LaunchScreen.storyboard in Resources */,
 				0560807C1BA5A0B200D8F4FA /* Assets.xcassets in Resources */,
 				0560807A1BA5A0B200D8F4FA /* Main.storyboard in Resources */,
@@ -247,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.codemonkeyism.Noughts-and-Crosses";
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Noughts and Crosses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.codemonkeyism.Noughts-and-Crosses";
@@ -284,6 +298,7 @@
 				056080851BA5A0B200D8F4FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
